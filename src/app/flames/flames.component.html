@@ -1,0 +1,35 @@
+<!-- src/app/flames/flames.component.html -->
+<div class="container">
+    <h1>FLAMES Calculator</h1>
+    <div class="form-group">
+      <label for="name1">Name 1:</label>
+      <input type="text" id="name1" [(ngModel)]="name1" class="form-control" required>
+    </div>
+    <div class="form-group">
+      <label for="name2">Name 2:</label>
+      <input type="text" id="name2" [(ngModel)]="name2" class="form-control" required>
+    </div>
+    <button (click)="calculateRelationship()" class="btn btn-primary">Calculate</button>
+    <div *ngIf="result">
+      <h2>Result: {{ result }}</h2>
+    </div>
+  </div>
+
+  <div class="flames-description">
+    <h3>What Each FLAMES Letter Means:</h3>
+    <ul>
+      <li><strong>F</strong> - Friends: The ultimate buddy system! You're destined to share countless laughs and adventures together.</li>
+      <li><strong>L</strong> - Lovers: A match made in heaven! Your hearts are in sync and the sparks will always fly.</li>
+      <li><strong>A</strong> - Affectionate: You're warm and fuzzy for each other. A cozy connection that's all about hugs and smiles.</li>
+      <li><strong>M</strong> - Marriage: Bells are ringing! A lifelong journey of love and partnership awaits you.</li>
+      <li><strong>E</strong> - Enemies: Oh no! You might clash heads more often than not. But every story needs its drama, right?</li>
+      <li><strong>S</strong> - Siblings: Like family from another lifetime. You share a bond that’s both unique and unbreakable.</li>
+    </ul>
+  </div>
+  
+  <footer>
+    <div class="footer-content">
+      <p>Created By: Ismail Shaik</p>
+      <p><a href="https://github.com/ismsh416" target="_blank">GitHub Profile</a></p>
+    </div>
+  </footer>

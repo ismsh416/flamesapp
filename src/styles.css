@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f0f8ff; /* Example: light blue background color */
+    /* background-image: url('assets/background.jpg'); */ /* Uncomment and set path if using an image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Makes the background image fixed during scroll */
+    color: #333; /* Optional: sets default text color */
+    font-family: Arial, sans-serif; /* Optional: sets default font */
+  }
