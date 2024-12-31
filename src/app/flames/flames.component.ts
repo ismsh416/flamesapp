@@ -68,7 +68,12 @@ export class FlamesComponent {
 
     const flamesResult = this.calculateFlames(count);
     this.result = this.getRelationship(flamesResult);
+    this.logNamesToTerminal(this.name1, this.name2, this.result);
     setTimeout(() => this.showPopup(), 0);
+  }
+
+logNamesToTerminal(name1: string, name2: string, result: string): void {
+    console.log(`Name1: ${name1}, Name2: ${name2}, Result: ${result}`);
   }
 
   showPopup(): void {
