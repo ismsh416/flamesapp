@@ -1,27 +1,25 @@
 # Flamesapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+FlamesApp is a fun game where you can enter your name and your partner's name to reveal your relationship status based on the FLAMES acronym.
 
-## Development server
+## What Each FLAMES Letter Means:
+- **F - Friends**: The ultimate buddy system! You're destined to share countless laughs and adventures together.
+- **L - Lovers**: A match made in heaven! Your hearts are in sync and the sparks will always fly.
+- **A - Affectionate**: You're warm and fuzzy for each other. A cozy connection that's all about hugs and smiles.
+- **M - Marriage**: Bells are ringing! A lifelong journey of love and partnership awaits you.
+- **E - Enemies**: Oh no! You might clash heads more often than not. But every story needs its drama, right?
+- **S - Siblings**: Like family from another lifetime. You share a bond that’s both unique and unbreakable.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## How to Play
+1. Enter your name in the first input field.
+2. Enter your partner's name in the second input field.
+3. Click the "Calculate" button to see your FLAMES result.
 
-## Code scaffolding
+## Live Demo
+Check out the live demo of the app [here](https://flamesapp-zeta.vercel.app/).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+*This is a machine-generated game. Don't worry if it gives a negative result—your love is great!*
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
